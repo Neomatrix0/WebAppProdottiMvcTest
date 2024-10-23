@@ -1,0 +1,89 @@
+@model AggiungiProdottoViewModel
+
+@{
+    ViewData["Title"] = "Aggiungi Prodotto";
+}
+
+<div class="container mt-5">
+    <div class="card shadow-lg">
+        <div class="card-header bg-dark text-white">
+            <h1 class="card-title">@ViewData["Title"]</h1>
+        </div>
+        <div class="card-body">
+            <form asp-action="AggiungiProdotto" method="post">
+                <!-- Campo Nome -->
+                <div class="form-group">
+                    <label asp-for="Prodotto.Nome" class="control-label">Nome</label>
+                    <input asp-for="Prodotto.Nome" class="form-control" placeholder="Nome prodotto" />
+                    <span asp-validation-for="Prodotto.Nome" class="text-danger"></span>
+                </div>
+
+                <!-- Campo Prezzo -->
+                <div class="form-group">
+                    <label asp-for="Prodotto.Prezzo" class="control-label">Prezzo</label>
+                    <input asp-for="Prodotto.Prezzo" class="form-control" type="number" step="0.01" placeholder="Prezzo prodotto" />
+                    <span asp-validation-for="Prodotto.Prezzo" class="text-danger"></span>
+                </div>
+
+                <!-- Campo Dettaglio -->
+                <div class="form-group">
+                    <label asp-for="Prodotto.Dettaglio" class="control-label">Dettaglio</label>
+                    <input asp-for="Prodotto.Dettaglio" class="form-control" placeholder="Dettaglio prodotto" />
+                    <span asp-validation-for="Prodotto.Dettaglio" class="text-danger"></span>
+                </div>
+
+                <!-- Campo Immagine -->
+                <div class="form-group">
+                    <label asp-for="Prodotto.Immagine" class="control-label">URL Immagine</label>
+                    <input asp-for="Prodotto.Immagine" class="form-control" placeholder="img/" />
+                    <span asp-validation-for="Prodotto.Immagine" class="text-danger"></span>
+                </div>
+
+                <!-- Campo Quantità -->
+                <div class="form-group">
+                    <label asp-for="Prodotto.Quantita" class="control-label">Quantità</label>
+                    <input asp-for="Prodotto.Quantita" class="form-control" placeholder="Quantità prodotto" />
+                    <span asp-validation-for="Prodotto.Quantita" class="text-danger"></span>
+                </div>
+
+                <!-- Campo Categoria -->
+   <!-- Campo Categoria -->
+@*<div class="form-group">
+    <label asp-for="Prodotto.Categoria" class="control-label">Categoria</label>
+    <input asp-for="Prodotto.Categoria" class="form-control" placeholder="Inserisci la categoria" />
+    <span asp-validation-for="Prodotto.Categoria" class="text-danger"></span>
+</div>  *@
+
+@*Nota:  asp-for lega un campo di input a una proprietà del modello (ViewModel)*@
+<!--
+asp-items genera dinamicamente le opzioni(<option>) per il menu a tendina utilizzando la lista Model.Categorie.
+La classe SelectList viene utilizzata per convertire la lista in una struttura compatibile con asp-items
+-->
+
+<div class="form-group">
+    <label asp-for="Prodotto.Categoria" class="control-label">Categoria</label>
+    <select asp-for="Prodotto.Categoria" class="form-control" asp-items="@(new SelectList(Model.Categorie))">
+        <option value="">Seleziona una categoria</option>
+    </select>
+    <span asp-validation-for="Prodotto.Categoria" class="text-danger"></span>
+</div>
+
+
+
+                <!-- Campo Codice -->
+                <div class="form-group">
+                    <label asp-for="Codice" class="control-label">Codice</label>
+                    <input asp-for="Codice" class="form-control" placeholder="Codice di sicurezza" />
+                    <span asp-validation-for="Codice" class="text-danger"></span>
+                </div>
+
+                <button type="submit" class="btn btn-dark mt-3">Aggiungi</button>
+                <div asp-validation-summary="All" class="text-danger"></div>
+            </form>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" /> 
+}

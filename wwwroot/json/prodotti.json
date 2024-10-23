@@ -1,0 +1,146 @@
+[
+  {
+    "Id": 1,
+    "Nome": "scarpe eleganti",
+    "Prezzo": 350.00,
+    "Dettaglio": "Dettaglio1",
+    "Immagine": "img/shoes.jpg",
+    "Quantita": 10,
+    "Categoria": "Abbigliamento"
+  },
+  {
+    "Id": 2,
+    "Nome": "sigari",
+    "Prezzo": 200.00,
+    "Dettaglio": "scatola da 30",
+    "Immagine": "img/cigars.jpeg",
+    "Quantita": 50,
+    "Categoria": "Tabacco"
+  },
+  {
+    "Id": 3,
+    "Nome": "prodotti Apple",
+    "Prezzo": 900.00,
+    "Dettaglio": "Dettaglio3",
+    "Immagine": "img/apple.jpg",
+    "Quantita": 5,
+    "Categoria": "Elettronica"
+  },
+  {
+    "Id": 4,
+    "Nome": "profumi",
+    "Prezzo": 180.00,
+    "Dettaglio": "Dettaglio4",
+    "Immagine": "img/profumo.webp",
+    "Quantita": 20,
+    "Categoria": "Cosmetici"
+  },
+  {
+    "Id": 5,
+    "Nome": "Orologi",
+    "Prezzo": 18000.0,
+    "Dettaglio": "Dettaglio5",
+    "Immagine": "img/img2.webp",
+    "Quantita": 2,
+    "Categoria": "Accessori"
+  },
+  {
+    "Id": 6,
+    "Nome": "Abiti",
+    "Prezzo": 1200.00,
+    "Dettaglio": "Dettaglio6",
+    "Immagine": "img/suits.png",
+    "Quantita": 15,
+    "Categoria": "Abbigliamento"
+  },
+  {
+    "Id": 7,
+    "Nome": "Occhiali",
+    "Prezzo": 220.50,
+    "Dettaglio": "Dettaglio7",
+    "Immagine": "img/sunglasses.webp",
+    "Quantita": 30,
+    "Categoria": "Accessori"
+  },
+  {
+    "Id": 8,
+    "Nome": "Quadri",
+    "Prezzo": 2000.00,
+    "Dettaglio": "Dettaglio8",
+    "Immagine": "img/arts.jpg",
+    "Quantita": 5,
+    "Categoria": "Arte"
+  },
+  {
+    "Id": 9,
+    "Nome": "Penne",
+    "Prezzo": 320.99,
+    "Dettaglio": "Dettaglio9",
+    "Immagine": "img/pens.jpg",
+    "Quantita": 10,
+    "Categoria": "Gioielli"
+  },
+  {
+    "Id": 10,
+    "Nome": "libri",
+    "Prezzo": 55.50,
+    "Dettaglio": "Dettaglio10",
+    "Immagine": "img/books2.jfif",
+    "Quantita": 100,
+    "Categoria": "Libri"
+  },
+  {
+    "Id": 11,
+    "Nome": "Bevande",
+    "Prezzo": 250.00,
+    "Dettaglio": "Dettaglio11",
+    "Immagine": "img/champagne.webp",
+    "Quantita": 30,
+    "Categoria": "Bevande"
+  },
+  {
+    "Id": 13,
+    "Nome": "Pc",
+    "Prezzo": 1300.0,
+    "Dettaglio": "Dettaglio13",
+    "Immagine": "img/pc.jpg",
+    "Quantita": 10,
+    "Categoria": "Elettronica"
+  },
+  {
+    "Id": 14,
+    "Nome": "cuffie",
+    "Prezzo": 320.00,
+    "Dettaglio": "Dettaglio14",
+    "Immagine": "img/headphones2.png",
+    "Quantita": 40,
+    "Categoria": "Elettronica"
+  },
+  {
+    "Id": 15,
+    "Nome": "console",
+    "Prezzo": 700.00,
+    "Dettaglio": "Dettaglio15",
+    "Immagine": "img/console2.webp",
+    "Quantita": 20,
+    "Categoria": "Giochi"
+  },
+  {
+    "Id": 16,
+    "Nome": "Ombrello",
+    "Prezzo": 65.0,
+    "Dettaglio": "Dettaglio16",
+    "Immagine": "img/umbrella.jpg",
+    "Quantita": 50,
+    "Categoria": "Accessori"
+  },
+  {
+    "Id": 17,
+    "Nome": "Smartphone",
+    "Prezzo": 1299.99,
+    "Dettaglio": "dettaglio17",
+    "Immagine": "img/phone.webp",
+    "Quantita": 8,
+    "Categoria": "Elettronica"
+  }
+]

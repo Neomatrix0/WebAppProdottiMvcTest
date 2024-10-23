@@ -1,0 +1,369 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\WebAppProdottiMvcTest\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\WebAppProdottiMvcTest.bundle.scp.css",
+      "PackagePath": "staticwebassets\\WebAppProdottiMvcTest.bundle.scp.css"
+    },
+    {
+      "Id": "D:\\WebAppProdottiMvcTest\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "D:\\WebAppProdottiMvcTest\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\WebAppProdottiMvcTest\\wwwroot\\img\\apple.jpg",
+      "PackagePath": "staticwebassets\\img\\apple.jpg"
+    },
+    {
+      "Id": "D:\\WebAppProdottiMvcTest\\wwwroot\\img\\arts.jpg",
+      "PackagePath": "staticwebassets\\img\\arts.jpg"
+    },
+    {
+      "Id": "D:\\WebAppProdottiMvcTest\\wwwroot\\img\\books.jfif",
+      "PackagePath": "staticwebassets\\img\\books.jfif"
+    },
+    {
+      "Id": "D:\\WebAppProdottiMvcTest\\wwwroot\\img\\books2.jfif",
+      "PackagePath": "staticwebassets\\img\\books2.jfif"
+    },
+    {
+      "Id": "D:\\WebAppProdottiMvcTest\\wwwroot\\img\\borsa.jpg",
+      "PackagePath": "staticwebassets\\img\\borsa.jpg"
+    },
+    {
+      "Id": "D:\\WebAppProdottiMvcTest\\wwwroot\\img\\champagne.webp",
+      "PackagePath": "staticwebassets\\img\\champagne.webp"
+    },
+    {
+      "Id": "D:\\WebAppProdottiMvcTest\\wwwroot\\img\\cigars.jpeg",
+      "PackagePath": "staticwebassets\\img\\cigars.jpeg"
+    },
+    {
+      "Id": "D:\\WebAppProdottiMvcTest\\wwwroot\\img\\console.webp",
+      "PackagePath": "staticwebassets\\img\\console.webp"
+    },
+    {
+      "Id": "D:\\WebAppProdottiMvcTest\\wwwroot\\img\\console2.webp",
+      "PackagePath": "staticwebassets\\img\\console2.webp"
+    },
+    {
+      "Id": "D:\\WebAppProdottiMvcTest\\wwwroot\\img\\glasses.jfif",
+      "PackagePath": "staticwebassets\\img\\glasses.jfif"
+    },
+    {
+      "Id": "D:\\WebAppProdottiMvcTest\\wwwroot\\img\\headphones.webp",
+      "PackagePath": "staticwebassets\\img\\headphones.webp"
+    },
+    {
+      "Id": "D:\\WebAppProdottiMvcTest\\wwwroot\\img\\headphones2.png",
+      "PackagePath": "staticwebassets\\img\\headphones2.png"
+    },
+    {
+      "Id": "D:\\WebAppProdottiMvcTest\\wwwroot\\img\\img2.webp",
+      "PackagePath": "staticwebassets\\img\\img2.webp"
+    },
+    {
+      "Id": "D:\\WebAppProdottiMvcTest\\wwwroot\\img\\pc.jpg",
+      "PackagePath": "staticwebassets\\img\\pc.jpg"
+    },
+    {
+      "Id": "D:\\WebAppProdottiMvcTest\\wwwroot\\img\\pens.jpg",
+      "PackagePath": "staticwebassets\\img\\pens.jpg"
+    },
+    {
+      "Id": "D:\\WebAppProdottiMvcTest\\wwwroot\\img\\phone.webp",
+      "PackagePath": "staticwebassets\\img\\phone.webp"
+    },
+    {
+      "Id": "D:\\WebAppProdottiMvcTest\\wwwroot\\img\\productimg.jpg",
+      "PackagePath": "staticwebassets\\img\\productimg.jpg"
+    },
+    {
+      "Id": "D:\\WebAppProdottiMvcTest\\wwwroot\\img\\profumo.webp",
+      "PackagePath": "staticwebassets\\img\\profumo.webp"
+    },
+    {
+      "Id": "D:\\WebAppProdottiMvcTest\\wwwroot\\img\\shoes.jpg",
+      "PackagePath": "staticwebassets\\img\\shoes.jpg"
+    },
+    {
+      "Id": "D:\\WebAppProdottiMvcTest\\wwwroot\\img\\suits.png",
+      "PackagePath": "staticwebassets\\img\\suits.png"
+    },
+    {
+      "Id": "D:\\WebAppProdottiMvcTest\\wwwroot\\img\\sunglasses.webp",
+      "PackagePath": "staticwebassets\\img\\sunglasses.webp"
+    },
+    {
+      "Id": "D:\\WebAppProdottiMvcTest\\wwwroot\\img\\umbrella.jpg",
+      "PackagePath": "staticwebassets\\img\\umbrella.jpg"
+    },
+    {
+      "Id": "D:\\WebAppProdottiMvcTest\\wwwroot\\img\\umbrella2.webp",
+      "PackagePath": "staticwebassets\\img\\umbrella2.webp"
+    },
+    {
+      "Id": "D:\\WebAppProdottiMvcTest\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "D:\\WebAppProdottiMvcTest\\wwwroot\\json\\categorie.json",
+      "PackagePath": "staticwebassets\\json\\categorie.json"
+    },
+    {
+      "Id": "D:\\WebAppProdottiMvcTest\\wwwroot\\json\\prodotti.json",
+      "PackagePath": "staticwebassets\\json\\prodotti.json"
+    },
+    {
+      "Id": "D:\\WebAppProdottiMvcTest\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "D:\\WebAppProdottiMvcTest\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "D:\\WebAppProdottiMvcTest\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "D:\\WebAppProdottiMvcTest\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "D:\\WebAppProdottiMvcTest\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "D:\\WebAppProdottiMvcTest\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "D:\\WebAppProdottiMvcTest\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "D:\\WebAppProdottiMvcTest\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "D:\\WebAppProdottiMvcTest\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\WebAppProdottiMvcTest\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "D:\\WebAppProdottiMvcTest\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "D:\\WebAppProdottiMvcTest\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "D:\\WebAppProdottiMvcTest\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "D:\\WebAppProdottiMvcTest\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "D:\\WebAppProdottiMvcTest\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "D:\\WebAppProdottiMvcTest\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "D:\\WebAppProdottiMvcTest\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\WebAppProdottiMvcTest\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "D:\\WebAppProdottiMvcTest\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "D:\\WebAppProdottiMvcTest\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "D:\\WebAppProdottiMvcTest\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "D:\\WebAppProdottiMvcTest\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "D:\\WebAppProdottiMvcTest\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "D:\\WebAppProdottiMvcTest\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "D:\\WebAppProdottiMvcTest\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\WebAppProdottiMvcTest\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\WebAppProdottiMvcTest\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "D:\\WebAppProdottiMvcTest\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\WebAppProdottiMvcTest\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\WebAppProdottiMvcTest\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "D:\\WebAppProdottiMvcTest\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "D:\\WebAppProdottiMvcTest\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "D:\\WebAppProdottiMvcTest\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\WebAppProdottiMvcTest\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "D:\\WebAppProdottiMvcTest\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "D:\\WebAppProdottiMvcTest\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\WebAppProdottiMvcTest\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "D:\\WebAppProdottiMvcTest\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "D:\\WebAppProdottiMvcTest\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "D:\\WebAppProdottiMvcTest\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "D:\\WebAppProdottiMvcTest\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "D:\\WebAppProdottiMvcTest\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\WebAppProdottiMvcTest\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "D:\\WebAppProdottiMvcTest\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\WebAppProdottiMvcTest\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "D:\\WebAppProdottiMvcTest\\wwwroot\\lib\\custom-validation\\custom.js",
+      "PackagePath": "staticwebassets\\lib\\custom-validation\\custom.js"
+    },
+    {
+      "Id": "D:\\WebAppProdottiMvcTest\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\WebAppProdottiMvcTest\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "D:\\WebAppProdottiMvcTest\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "D:\\WebAppProdottiMvcTest\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "D:\\WebAppProdottiMvcTest\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "D:\\WebAppProdottiMvcTest\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "D:\\WebAppProdottiMvcTest\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "D:\\WebAppProdottiMvcTest\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "D:\\WebAppProdottiMvcTest\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\WebAppProdottiMvcTest\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "D:\\WebAppProdottiMvcTest\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\WebAppProdottiMvcTest\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.WebAppProdottiMvcTest.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.WebAppProdottiMvcTest.props",
+      "PackagePath": "build\\WebAppProdottiMvcTest.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.WebAppProdottiMvcTest.props",
+      "PackagePath": "buildMultiTargeting\\WebAppProdottiMvcTest.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.WebAppProdottiMvcTest.props",
+      "PackagePath": "buildTransitive\\WebAppProdottiMvcTest.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

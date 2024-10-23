@@ -1,0 +1,44 @@
+@model Prodotto
+
+@{
+    ViewData["Title"] = Model.Nome;
+}
+
+<h1>@ViewData["Title"]</h1> 
+
+<div class="table-responsive">
+    @if (Model != null)
+    {
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Immagine</th>
+                    <th>Nome</th>
+                    <th>Prezzo</th>
+                    <th>Dettaglio</th>
+                    <th>Quantità</th>
+                    <th>Categoria</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td data-label="Immagine">
+                        <img src="~/@Model.Immagine" alt="@Model.Nome" width="300" height="300" />
+                    </td>
+                    <td data-label="Nome">@Model.Nome</td>
+                    <td data-label="Prezzo">@Model.Prezzo €</td>
+                    <td data-label="Dettaglio">@Model.Dettaglio</td>
+                    <td data-label="Quantità">@Model.Quantita</td>
+                    <td data-label="Categoria">@Model.Categoria</td>
+                </tr>
+            </tbody>
+        </table>
+    }
+    else
+    {
+        <!-- Messaggio di errore se il prodotto non è disponibile -->
+        <p>Il prodotto non è stato trovato.</p>
+    }
+
+    <a asp-action="Index" asp-controller="Prodotti">Torna ai prodotti</a>
+</div>

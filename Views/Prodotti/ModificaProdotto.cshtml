@@ -1,0 +1,84 @@
+@using System.Globalization
+
+@model ModificaProdottoViewModel
+
+@{
+    ViewData["Title"] = "Modifica Prodotto";
+}
+
+<div class="container mt-5">
+    <div class="card shadow-lg">
+        <div class="card-header bg-dark text-white">
+            <h1 class="card-title">@ViewData["Title"]</h1>
+        </div>
+
+        <div class="card-body">
+            <form asp-action="ModificaProdotto" method="post">
+                <div class="form-group">
+                    <label for="nome">Nome Prodotto:</label>
+                    <input type="text" class="form-control" id="nome" name="Prodotto.Nome" placeholder="Nome prodotto" value="@Model.Prodotto.Nome" required />
+                </div>
+
+                <div class="form-group">
+                    <label for="prezzo">Prezzo Prodotto:</label>
+           <!--    <input type="number" step="0.01" class="form-control" id="prezzo" name="Prodotto.Prezzo" placeholder="Prezzo prodotto" value="@Model.Prodotto.Prezzo.ToString("F2", CultureInfo.InvariantCulture) " required /> -->
+            <input type="text" class="form-control" id="prezzo" name="Prodotto.Prezzo" placeholder="Prezzo prodotto" value="@Model.Prodotto.Prezzo.ToString("F2", CultureInfo.InvariantCulture)" required />
+
+                </div>
+
+                <div class="form-group">
+                    <label for="dettaglio">Dettaglio Prodotto:</label>
+                    <input type="text" class="form-control" id="dettaglio" name="Prodotto.Dettaglio" placeholder="Dettaglio prodotto" value="@Model.Prodotto.Dettaglio" required />
+                </div>
+
+                <div class="form-group">
+                    <label for="immagine">URL Immagine Prodotto:</label>
+                    <input type="text" class="form-control" id="immagine" name="Prodotto.Immagine" placeholder="Immagine prodotto" value="@Model.Prodotto.Immagine" required />
+                </div>
+
+                <div class="form-group">
+                    <label for="quantita">Quantità:</label>
+                    <input type="number" class="form-control" id="quantita" name="Prodotto.Quantita" placeholder="Quantità prodotto" value="@Model.Prodotto.Quantita" required />
+                </div>
+<!--
+  <div class="form-group">
+    <label asp-for="Prodotto.Categoria">Categoria:</label>
+    <input asp-for="Prodotto.Categoria" class="form-control" placeholder="Inserisci la categoria" />
+    <span asp-validation-for="Prodotto.Categoria" class="text-danger"></span>
+</div>  -->
+
+<div class="form-group">
+    <label asp-for="Prodotto.Categoria" class="control-label">Categoria</label>
+    <select asp-for="Prodotto.Categoria" class="form-control" asp-items="@(new SelectList(Model.Categorie))">
+        <option value="">Seleziona categoria</option>
+    </select>
+    <span asp-validation-for="Prodotto.Categoria" class="text-danger"></span>
+</div>
+
+<!--Il campo nascosto input hidden viene utilizzato per mantenere traccia dell'ID del prodotto che si sta modificando
+ in modo che il server sappia quale prodotto specifico aggiornare una volta che il form è stato inviato-->
+
+
+                <input type="hidden" name="Prodotto.Id" value="@Model.Prodotto.Id" />
+
+                <button type="submit" class="btn btn-dark mt-3">Salva Modifiche</button>
+            </form>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />  
+
+    <script>
+        document.getElementById('modificaProdottoForm').addEventListener('submit', function (e) {
+            var prezzoInput = document.getElementById('prezzo');
+            prezzoInput.value = prezzoInput.value.replace(',', '.'); // Converte la virgola in punto prima di inviare i dati
+        });
+    </script>
+}
+
+
+
+
+

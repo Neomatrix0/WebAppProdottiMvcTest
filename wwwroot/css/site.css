@@ -1,0 +1,189 @@
+html {
+  font-size: 14px;
+ 
+}
+
+
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+  background-color: #3B3B3B;
+  color:white;
+}
+
+.navbar .nav-link {
+  color: white !important;
+}
+
+.footer{
+background-color: rgb(33,37,41); /* colore bg-dark */
+    color: white; }
+
+    .table th, .table td {
+      color: white; /* Imposta il colore del testo in bianco */
+  }
+  h1 {
+      color: white; /* Imposta il colore dell'intestazione in bianco */
+  }
+  a {
+      color: white; /* Imposta i link in bianco */
+  }
+  
+ 
+  @media (max-width: 768px) {
+    .table {
+        display: block;
+        width: 100%;
+    }
+
+    .table thead {
+        display: none; /* Nasconde l'intestazione della tabella */
+    }
+
+    .table tbody, .table tr, .table td {
+        display: block;
+        width: 100%;
+        text-align: left; /* Impila gli elementi in colonna */
+        margin-bottom: 20px; /* Spazio tra le righe */
+    }
+
+    .table td {
+        text-align: left;
+        padding-left: 0;
+        position: relative;
+    }
+
+    .table td::before {
+        content: attr(data-label); /* Usa l'attributo data-label per simulare l'intestazione */
+        display: block;
+        font-weight: bold;
+        margin-bottom: 5px;
+    }
+
+    img {
+        width: 100%; /* Adatta l'immagine alla larghezza del dispositivo */
+        height: auto;
+    }
+}
+
+/*carousel scritta*/
+
+.carousel-item {
+  position: relative; /* Assicura che la didascalia sia posizionata in base all'immagine */
+}
+.carousel-caption {
+  position: absolute; /* Posiziona la didascalia sopra l'immagine */
+  left: 50%; /* Centra la didascalia orizzontalmente */
+    transform: translateX(-50%); /* Assicura il centramento */
+    width: 300px; /* Larghezza fissa della didascalia */
+  background-color: rgba(0, 0, 0, 0.5); /* Sfondo nero semi-trasparente */
+  padding: 10px;
+  color: white; /* Colore del testo */
+  text-align: center; /* Centra il testo */
+  box-sizing: border-box; /* Include il padding nei calcoli della larghezza */
+  z-index: 10; /* Assicura che la didascalia sia sopra l'immagine */
+ 
+}
+
+.carousel-caption h5,
+.carousel-caption p {
+  margin:0;
+  color: white; /* Cambia il colore del testo in bianco */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8); /* Aggiunge un'ombra al testo per migliorarne la leggibilità */
+}
+
+
+.my-custom-card {
+  color: black;
+}
+
+/* Cambia il colore del bordo degli input con errori di validazione */
+.input-validation-error {
+  border-color: red !important; /* Bordo rosso per evidenziare gli errori */
+}
+
+/* Cambia il colore del messaggio di errore */
+.field-validation-error {
+  color: red; /* Colore rosso per i messaggi di errore */
+}
+
+/* Cambia il colore del bordo degli input validi */
+.input-validation-valid {
+  border-color: green !important; /* Bordo verde per evidenziare i campi validi */
+}
+
+/* Cambia il colore del messaggio di successo */
+.field-validation-valid {
+  color: green;
+}
+
+/* Rimuove lo sfondo azzurro su autocompletamento nei browser Webkit (Chrome, Safari, Edge) */
+input:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0 1000px white inset !important; /* Imposta lo sfondo bianco per sovrascrivere l'azzurro */
+  -webkit-text-fill-color: black !important; /* Imposta il colore del testo */
+}
+
+/* Rimuove lo sfondo azzurro per altri browser che usano il motore Blink (Chrome, Edge) */
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus, 
+input:-webkit-autofill:active {
+  -webkit-box-shadow: 0 0 0 1000px white inset !important;
+  -webkit-text-fill-color: black !important;
+}
+
+::placeholder {
+  color: #6c757d;
+  opacity: 1;
+}
+::-webkit-input-placeholder {
+  color: #6c757d;
+}
+
+
+@media (min-width: 260px) and (max-width: 992px) {
+  .card {
+    width: 80%; /* Aumenta la larghezza delle cards */
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+
+
+
+/* Aggiunta una regola per schermi grandi (superiori a 1280px) per centrare le card */
+
+@media (min-width: 1280px) {
+  .card {
+    width: 18rem; 
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  
+ /* .row {
+    justify-content: center;
+  }
+  
+  /* Modifica la disposizione delle colonne su schermi grandi */
+  /* Le colonne prendono circa il 30% dello schermo */
+  /*.col-md-4 {
+    flex: 0 0 30%; 
+    max-width: 30%;
+  }  */
+} 

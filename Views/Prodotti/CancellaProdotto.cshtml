@@ -1,0 +1,24 @@
+@model Prodotto
+
+@{
+    ViewData["Title"] = "Cancella Prodotto";
+}
+
+<div class="container mt-5">
+    <div class="card shadow-lg" style="max-width: 600px;">
+        <div class="card-header bg-dark text-white">
+            <h1 class="card-title">@ViewData["Title"]</h1>
+        </div>
+
+        <div class="card-body my-custom-card">
+            <form method="post">
+                <div class="form-group">
+                    <h1 style="color:black">@Model.Nome</h1>
+                    <p><strong>Prezzo:</strong> @Model.Prezzo €</p>
+                    <img src="/@Model.Immagine"  style="width: 200px;" alt="@Model.Nome" />
+                </div>
+                <button type="submit" class="btn btn-dark mt-2">Cancella</button>
+            </form>
+        </div>
+    </div>
+</div>
