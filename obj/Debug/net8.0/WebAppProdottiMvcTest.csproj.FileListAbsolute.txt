@@ -65,3 +65,4 @@ D:\WebAppProdottiMvcTest\obj\Debug\net8.0\refint\WebAppProdottiMvcTest.dll
 D:\WebAppProdottiMvcTest\obj\Debug\net8.0\WebAppProdottiMvcTest.pdb
 D:\WebAppProdottiMvcTest\obj\Debug\net8.0\WebAppProdottiMvcTest.genruntimeconfig.cache
 D:\WebAppProdottiMvcTest\obj\Debug\net8.0\ref\WebAppProdottiMvcTest.dll
+D:\WebAppProdottiMvcTest\obj\Debug\net8.0\WebAppProdottiMvcTest.sourcelink.json

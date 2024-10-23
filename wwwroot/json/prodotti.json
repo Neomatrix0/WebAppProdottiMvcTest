@@ -38,10 +38,10 @@
   {
     "Id": 5,
     "Nome": "Orologi",
-    "Prezzo": 18000.0,
+    "Prezzo": 1800000.0,
     "Dettaglio": "Dettaglio5",
     "Immagine": "img/img2.webp",
-    "Quantita": 2,
+    "Quantita": 3,
     "Categoria": "Accessori"
   },
   {
